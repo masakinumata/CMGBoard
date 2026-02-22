@@ -296,7 +296,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 200,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -412,6 +412,10 @@
     [
       "11ae0773-063e-421c-b359-668d7833fea8",
       "Root"
+    ],
+    [
+      "d249788c-742b-4636-ae43-a8de748fb31d",
+      "microSD"
     ]
   ],
   "text_variables": {}
