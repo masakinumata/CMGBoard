@@ -4701,16 +4701,6 @@
 		)
 		(uuid "0055ce7f-dae0-471e-9137-89863cb8dc66")
 	)
-	(label "MOSI"
-		(at 196.85 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "00d12f57-e735-4ad0-9143-4d99769b1aa4")
-	)
 	(label "OUT2"
 		(at 179.07 92.71 180)
 		(effects
@@ -4821,6 +4811,16 @@
 		)
 		(uuid "35eced9a-0ce2-4432-a1de-85322744d097")
 	)
+	(label "CS"
+		(at 196.85 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c91c92a-bd66-42f4-b84d-a8a729e71060")
+	)
 	(label "ERROR"
 		(at 59.69 168.91 180)
 		(effects
@@ -4891,15 +4891,15 @@
 		)
 		(uuid "51f91719-ce61-4ddb-ab26-da5df974fd58")
 	)
-	(label "MISO"
-		(at 196.85 80.01 180)
+	(label "MOSI"
+		(at 196.85 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "908efff6-6cdc-43bf-b617-4e922cdba645")
+		(uuid "77403c54-e09b-407e-a950-236a59c524ff")
 	)
 	(label "IN2"
 		(at 93.98 107.95 0)
@@ -4910,16 +4910,6 @@
 			(justify left bottom)
 		)
 		(uuid "a5bd0518-6389-4d70-a605-fe6d7feb9db7")
-	)
-	(label "CS"
-		(at 196.85 82.55 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b026851e-057f-4ff1-bd99-99ca64f23847")
 	)
 	(label "Servo_S"
 		(at 88.9 127 180)
@@ -4961,16 +4951,6 @@
 		)
 		(uuid "ca5e3210-7ead-4cc9-baad-e52c3247aa34")
 	)
-	(label "CLK"
-		(at 196.85 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ccaec5fe-fc33-46a4-a51e-2b5f1de201ad")
-	)
 	(label "Servo_S"
 		(at 93.98 102.87 0)
 		(effects
@@ -5001,6 +4981,16 @@
 		)
 		(uuid "d7863980-9a68-44dc-ab02-d79e129cf721")
 	)
+	(label "CLK"
+		(at 196.85 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7a501cf-c459-4c4d-a7ce-a921e203c84a")
+	)
 	(label "FSYNC"
 		(at 113.03 160.02 0)
 		(effects
@@ -5010,6 +5000,16 @@
 			(justify left bottom)
 		)
 		(uuid "d924159d-1137-4913-9527-6a8dd64965da")
+	)
+	(label "MISO"
+		(at 196.85 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da876d9c-5790-45e7-8f64-c432e1f41c9f")
 	)
 	(label "SDA"
 		(at 93.98 87.63 0)
