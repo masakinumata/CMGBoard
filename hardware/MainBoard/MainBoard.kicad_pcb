@@ -13353,8 +13353,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
-		(at 126.3 53.8 270)
+	(gr_text "GND/X/SIG"
+		(at 125.9 53.6 270)
 		(layer "B.SilkS")
 		(uuid "030c404e-86cf-4bc0-8507-6bad6d3a0644")
 		(effects
@@ -13365,20 +13365,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "IN1"
-		(at 126.2 59.35 270)
-		(layer "B.SilkS")
-		(uuid "1bc6b783-c8a6-4162-9a17-dec05d806873")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "GND"
-		(at 126.2 70.4 270)
+	(gr_text "GND/IN4/3/2/1"
+		(at 126 69.5 270)
 		(layer "B.SilkS")
 		(uuid "1d866fcd-148b-4f4a-b5d0-fe8e55d4f649")
 		(effects
@@ -13389,32 +13377,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "IN2"
-		(at 126.25 62 270)
-		(layer "B.SilkS")
-		(uuid "1e97dc21-8862-47ab-a48a-fe23337faa32")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "VDD"
-		(at 126.15 77.6 270)
-		(layer "B.SilkS")
-		(uuid "1efc7f1e-eb9d-4061-b28a-be43ef22ff1a")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "GND"
-		(at 126.15 81.1 270)
+	(gr_text "GND/VDD/SIG"
+		(at 126 82 270)
 		(layer "B.SilkS")
 		(uuid "23fd11b8-27de-44b4-b90f-6f08a152bf6a")
 		(effects
@@ -13425,10 +13389,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GND"
-		(at 126.45 93.1 270)
+	(gr_text "Relay"
+		(at 120.8 79 270)
 		(layer "B.SilkS")
-		(uuid "27c160b1-f7a7-4540-aba7-a9c2a09fdcb8")
+		(uuid "55e25cfe-cfa1-4b4e-93cf-96716fd50212")
 		(effects
 			(font
 				(size 1 1)
@@ -13437,10 +13401,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "IN4"
-		(at 126.25 67.25 270)
+	(gr_text "MotorDriver"
+		(at 120.8 67.6 270)
 		(layer "B.SilkS")
-		(uuid "3c34307c-5f46-4adb-a272-6d0cd031cfc2")
+		(uuid "660f47ae-cd6d-4a73-b46c-14f74aaec6fd")
 		(effects
 			(font
 				(size 1 1)
@@ -13449,32 +13413,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "S"
-		(at 126.3 47.65 270)
-		(layer "B.SilkS")
-		(uuid "5d8e30e5-f65c-48f5-9da8-4533d9840f06")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "S"
-		(at 126.15 74.45 270)
-		(layer "B.SilkS")
-		(uuid "7cee224c-76a2-4944-ab97-826f4a909014")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "VDD"
-		(at 125.3 95.3 270)
+	(gr_text "VDD/GND/OUT1/2"
+		(at 126 96.7 270)
 		(layer "B.SilkS")
 		(uuid "9d318c9d-ba77-480d-99ef-fee26ea9168a")
 		(effects
@@ -13485,10 +13425,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "IN3"
-		(at 126.25 64.7 270)
+	(gr_text "Servo"
+		(at 120.8 51.6 270)
 		(layer "B.SilkS")
-		(uuid "e0047210-9ae2-4d77-a79d-d197c8bd6b53")
+		(uuid "de52a7a8-41dc-4521-bbb2-a7c3dd8b7699")
 		(effects
 			(font
 				(size 1 1)
@@ -13497,22 +13437,10 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "OUT1"
-		(at 125.1 90.8 270)
+	(gr_text "Tachometer"
+		(at 120.8 93.7 270)
 		(layer "B.SilkS")
-		(uuid "f382d2e7-4d9a-4bb6-a83c-d31ec51247b1")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
-		)
-	)
-	(gr_text "OUT2"
-		(at 126.3 87.75 270)
-		(layer "B.SilkS")
-		(uuid "ffce620c-847a-4cd0-ac0d-2e3dd366d1e3")
+		(uuid "f99228e8-313c-44d6-87d3-8b047e842e67")
 		(effects
 			(font
 				(size 1 1)
