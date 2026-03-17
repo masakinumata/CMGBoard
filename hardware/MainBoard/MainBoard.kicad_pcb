@@ -13111,7 +13111,7 @@
 	(footprint "Library:wasa_10mm"
 		(layer "B.Cu")
 		(uuid "63b8b255-fff0-40fb-aa9d-91a3b8a98ef1")
-		(at 158.3 97 90)
+		(at 158.59 98.195 90)
 		(property "Reference" "G***"
 			(at 0.108168 -3.048 90)
 			(layer "B.SilkS")
@@ -13773,8 +13773,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "WASA_Rockoon_2026\nCMG_MainBoard"
-		(at 152.9 110.2 270)
+	(gr_text "WASA_Rockoon_2026\nCMG_MainBoard_DevModel"
+		(at 151.7 110.2 270)
 		(layer "B.SilkS")
 		(uuid "a5d80e58-3829-412e-916c-e6f1ad12d620")
 		(effects
