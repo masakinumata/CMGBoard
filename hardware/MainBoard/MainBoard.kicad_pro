@@ -663,7 +663,7 @@
       {
         "filename": "MainBoard.kicad_sch",
         "name": "MainBoard",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "11ae0773-063e-421c-b359-668d7833fea8"
       }
     ],
     "used_designators": "",
@@ -672,7 +672,7 @@
   "sheets": [
     [
       "11ae0773-063e-421c-b359-668d7833fea8",
-      "Root"
+      "MainBoard"
     ],
     [
       "d249788c-742b-4636-ae43-a8de748fb31d",
